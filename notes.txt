@@ -1,0 +1,18 @@
+features:
+
+1- user can search for a place by its name
+2- user can select the searched city from a drop down menu after he/she search
+3- application asks user for location permession to detect the user location immediatly
+4- application provide the user with the forcast of the specified location
+5- application only requests the city forcast when the user select the desired city from the drop down menu ( optimze network requests)
+6- application provide the user with the city :
+> temprature
+> humedity
+> weather condition (sunny,rainy,cloudy)
+> icon,image represeting the weather condition
+7- application layout:
+> main section consist of two parts: 
+>> upper part and the lower part:
+>>> upper part: this will contain point number 6
+>>> lower part: this will show the user the next 10 days forecast as a list ( bulk api request (optimze network requests) ), were the list item will contain: day name, temprature, ...etc
+>> search part
